@@ -2,7 +2,7 @@
 
 Hello, dev! Here's a lib for logs, you need to import the lib
 
-```npm i @joaodacarrossa/log```
+```npm i @joaodacarrossa-log```
 
 Here's a example:
 
