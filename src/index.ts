@@ -7,6 +7,7 @@ type LogType =
     | "warn"
     | "debug"
 
+
 const colors: Record<LogType, string> = {
     success: "\x1b[32m", //verde claro
     error: "\x1b[31m", //vermelho
@@ -44,5 +45,5 @@ export const log = {
     api: (msg:any) => console.log(format("api", msg)),
     info: (msg:any) => console.log(format("info", msg)),
     warn: (msg:any) => console.log(format("warn", msg)),
-    debug: (msg:any) => console.log(format("debug", msg))
+    debug: (msg:any) => console.log(format("debug", msg)),
 }
