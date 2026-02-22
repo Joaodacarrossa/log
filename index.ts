@@ -1,3 +1,3 @@
-import { log } from "./src/index"
+import { log } from "@jdslibs/log"
 
 log.success("Aaaaaa")
