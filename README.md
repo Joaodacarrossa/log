@@ -3,7 +3,7 @@
 Hello, dev! Here's a lib for logs, you need to import the lib
 
 ```sh
-npm i @jdslibs/log`
+npm i @jdslibs/log
 ```
 
 Here's a example:
