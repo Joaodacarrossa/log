@@ -32,4 +32,4 @@ log.db("Can't connect to DB")
 
 
 <bold>Comunidade Joaodacarrossa Co. (C) All rights reserved.</bold>
-<bold>The lib LOG is Joaodacarrossa.</bold>
+<bold>The author lib LOG is Joaodacarrossa.</bold>
