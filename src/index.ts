@@ -38,6 +38,34 @@ function format(type: LogType, message:any): String{
     return `${colors[type]}${prefixes[type]} ${getTime()} ${message}${reset}`
 }
 
+export function success(msg: string){
+    return console.log(format("success", msg))
+}
+
+export function error(msg: string){
+    return console.log(format("error", msg))
+}
+
+export function db(msg: string){
+    return console.log(format("db", msg))
+}
+
+export function api(msg: string){
+    return console.log(format("api", msg))
+}
+
+export function info(msg: string){
+    return console.log(format("info", msg))
+}
+
+export function warn(msg: string){
+    return console.log(format("warn", msg))
+}
+
+export function debug(msg: string){
+    return console.log(format("debug", msg))
+}
+
 export const log = {
     success: (msg:any) => console.log(format("success", msg)),
     error: (msg:any)  => console.log(format("error", msg)),
